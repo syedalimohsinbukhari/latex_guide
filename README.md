@@ -9,6 +9,23 @@ finished document to show for it.
 
 Read the finished guide: **[`LaTeX_for_Research_Students.pdf`](LaTeX_for_Research_Students.pdf)**
 
+---
+
+## Status — Work in Progress
+
+**Only Chapters 1–9 (Parts 1–3) are fully furnished** — polished, complete,
+and ready to read.
+
+**Chapter 10 is currently being reworked** — design decisions, headings,
+and section-level content are actively being revised.
+
+**Chapters 11–23 (Parts 4–9), the Appendix, and the Supplementary
+Materials are drafted but not finished** — the instructional content is
+there, but it still needs fleshing out and structural/visual polish
+before it matches the standard of Chapters 1–9.
+
+---
+
 ## Structure
 
 The guide is organized into 9 Parts (23 chapters total), an Appendix of

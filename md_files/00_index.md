@@ -1,3 +1,13 @@
+## Status — Work in Progress
+
+**Only Chapters 1–9 (Parts 1–3) are fully furnished** — polished, complete, and ready to read.
+
+**Chapter 10 is currently being reworked** — design decisions, headings, and section-level content are actively being revised.
+
+**Chapters 11–23 (Parts 4–9), the Appendix, and the Supplementary Materials are drafted but not finished** — the instructional content is there, but it still needs fleshing out and structural/visual polish before it matches the standard of Chapters 1–9.
+
+---
+
 This guide takes you from your first compiled document to a complete, submission-ready research paper. It's written for students in STEM and other research fields who are new to LaTeX, and it assumes no prior experience — just a willingness to work through the examples and exercises as you go. A running capstone project threads through the chapters: starting in Chapter 4 you build one paper piece by piece, so that by the end you have both the knowledge and a finished document to show for it.
 
 The material is organized into nine Parts (Chapters 1–23), followed by an Appendix of reference material and a Supplementary Materials file holding larger code samples and datasets referenced from the chapters.
