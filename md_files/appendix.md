@@ -6,18 +6,6 @@
 
 Reference material, not narrative teaching — everything below assumes you've already read the chapter it points back to, and exists purely so you don't have to go hunting for a command you've seen once before. Where something is fully explained elsewhere in the guide, this appendix links to it rather than re-teaching it; a few items (page geometry, dimension keywords, spacing glue) are genuinely new, since they didn't fit naturally into any single chapter's narrative.
 
-- [Appendix](#appendix)
-  - [A.1 — Symbol \& Command Cheat Sheet](#a1--symbol--command-cheat-sheet)
-  - [A.2 — Table Formatting Cheat Sheet](#a2--table-formatting-cheat-sheet)
-    - [`minipage` — and how it differs from `subfigure`](#minipage--and-how-it-differs-from-subfigure)
-  - [A.3 — Page Layout \& Spacing Reference](#a3--page-layout--spacing-reference)
-  - [A.4 — Common Package Reference Table](#a4--common-package-reference-table)
-  - [A.5 — Compiler Comparison](#a5--compiler-comparison)
-  - [A.6 — `tikz-cd` and `chemfig` Starter Snippets](#a6--tikz-cd-and-chemfig-starter-snippets)
-  - [A.7 — Quick Troubleshooting Checklist](#a7--quick-troubleshooting-checklist)
-  - [A.8 — Starter `.bib` Files](#a8--starter-bib-files)
-  - [A.9 — `hypersetup` Snippet](#a9--hypersetup-snippet)
-
 ---
 
 ## A.1 — Symbol & Command Cheat Sheet

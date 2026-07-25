@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
 # Build a single combined PDF of "LaTeX for Research Students" from the
-# individual Markdown files. The source .md files are read directly from THIS
-# folder every run — nothing is copied, and there is no build folder to
-# maintain (assembly happens in an auto-deleted system temp dir).
+# individual Markdown files. The source .md files are read directly from the
+# md_files/ subfolder every run — nothing is copied, and there is no build
+# folder to maintain (assembly happens in an auto-deleted system temp dir).
 #
 # Requirements: pandoc + a LaTeX engine (pdflatex / TeX Live), and the LaTeX
 # packages authblk, orcidlink, bm (all in a standard TeX Live install).
@@ -29,17 +29,17 @@ B="$(mktemp -d)"
 trap 'rm -rf "$B"' EXIT
 
 FILES=(
-#  ch01-04_foundations.md
-#  ch05-08_core_typesetting.md
-  ch09-10_math_mechanics.md
-#  ch11-12_math_structures.md
-#  ch13-16_bibliography.md
-#  ch17-18_diagrams_data.md
-#  ch19-20_macros_templates.md
-#  ch21-22_collaboration_diagnostics.md
-#  ch23_capstone_assembly.md
-#  appendix.md
-#  supplementary_materials.md
+  md_files/ch01-04_foundations.md
+  md_files/ch05-08_core_typesetting.md
+  md_files/ch09-10_math_mechanics.md
+#  md_files/ch11-12_math_structures.md
+#  md_files/ch13-16_bibliography.md
+#  md_files/ch17-18_diagrams_data.md
+#  md_files/ch19-20_macros_templates.md
+#  md_files/ch21-22_collaboration_diagnostics.md
+#  md_files/ch23_capstone_assembly.md
+  md_files/appendix.md
+#  md_files/supplementary_materials.md
 )
 
 # 2) Show exactly which source files (and versions) are going in.
@@ -98,7 +98,7 @@ TEX
 # 4) Body: intro paragraphs from 00_index.md (between the YAML block and the
 #    manual "## Contents" listing; Pandoc's --toc generates the real TOC),
 #    then every chapter, stripping the repeated subtitle + byline lines.
-awk 'f==2 && /^## Contents$/{exit} f==2{print} /^---$/{f++}' 00_index.md > "$B/body.md"
+awk 'f==2 && /^## Contents$/{exit} f==2{print} /^---$/{f++}' md_files/00_index.md > "$B/body.md"
 for f in "${FILES[@]}"; do
   printf '\n\n' >> "$B/body.md"
   sed -E '/^\*LaTeX for Research Students — a beginner/d; /^\*Authors: Syed Ali Mohsin Bukhari/d' "$f" >> "$B/body.md"
