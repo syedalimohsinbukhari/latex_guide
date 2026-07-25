@@ -1,3 +1,15 @@
+### Status — Work in Progress
+
+**Only Chapters 1–9 (Parts 1–3) are fully furnished** — polished, complete, and ready to read.
+
+**Chapter 10 is currently being reworked** — design decisions, headings, and section-level content are actively being revised.
+
+**Chapters 11–23 (Parts 4–9), the Appendix, and the Supplementary Materials are drafted but not finished** — the instructional content is there, but it still needs fleshing out and structural/visual polish before it matches the standard of Chapters 1–9.
+
+\clearpage
+\thispagestyle{empty}
+\clearpage
+
 ### LaTeX for Research Students: What it is?
 
 This guide takes you from your first compiled document to a complete, submission-ready research paper.
