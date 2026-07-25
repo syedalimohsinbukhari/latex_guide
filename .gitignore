@@ -1,0 +1,22 @@
+# Internal drafting/process material — not reader-facing, kept locally only.
+archive/
+cleanup_plan.md
+
+# IDE
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# LaTeX/Pandoc build byproducts (build_pdf.sh compiles in a temp dir and
+# copies only the final PDF here, but ignore stray leftovers just in case).
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# A build that couldn't overwrite the tracked PDF (see build_pdf.sh) lands
+# here instead — never intended to be committed.
+LaTeX_for_Research_Students.new.pdf
